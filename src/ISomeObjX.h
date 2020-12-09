@@ -6,11 +6,11 @@
 #define IOC_CONTAINER_ISOMEOBJX_H
 
 
-
 class ISomeObjX {
-
+public:
+    virtual ~ISomeObjX();
+    virtual void TestMethodX() = 0;
 };
-
 
 
 #endif //IOC_CONTAINER_ISOMEOBJX_H
