@@ -7,6 +7,12 @@
 #include <memory>
 #include <map>
 
+// Классы данного проекта
+#include "ISomeObjX.h"
+#include "ObjX.h"
+#include "IAmAThing.h"
+
+
 using namespace std;
 
 /*
@@ -156,55 +162,17 @@ IOCContainer gContainer;
 
 int IOCContainer::s_typeId = 121;
 
-
-//Здесь, примеры различных интерфесов, классов
-
-class ISomeObjX
-
-{
-
-public:
-
-    virtual ~ISomeObjX() { }
-
-    virtual void TestMethodX() = 0;
-
-};
-
-
-class ObjX : public ISomeObjX
-
-{
-
-public:
-
-    ObjX()
-
-    {
-
-    }
-
-    void TestMethodX()
-
-    {
-
-        std::cout << "This is ObjX" << std::endl;
-
-    }
-
-};
-
-class IAmAThing
-
-{
-
-public:
-
-    virtual ~IAmAThing() { }
-
-    virtual void TestThis() = 0;
-
-};
+//class IAmAThing
+//
+//{
+//
+//public:
+//
+//    virtual ~IAmAThing() { }
+//
+//    virtual void TestThis() = 0;
+//
+//};
 
 
 class IAmTheOtherThing
@@ -312,6 +280,14 @@ public:
 
 int main()
 {
+    // тут парочка моих тестов
+    // проверяют не сломается ли все во время выноса классов из
+    // общего кода
+
+    ObjX test();
+    std::cout<<"hello world!"<<endl;
+
+    // то что было нам дано
     gContainer.RegisterFactory<IAmTheOtherThing, TheOtherThing, IAmAThing>();
     gContainer.GetObject<IAmTheOtherThing>()->TheOtherTest();
 
