@@ -11,7 +11,7 @@
 #include "ISomeObjX.h"
 #include "ObjX.h"
 #include "IAmAThing.h"
-
+#include "IAmTheOtherThing.h"
 
 using namespace std;
 
@@ -162,33 +162,6 @@ IOCContainer gContainer;
 
 int IOCContainer::s_typeId = 121;
 
-//class IAmAThing
-//
-//{
-//
-//public:
-//
-//    virtual ~IAmAThing() { }
-//
-//    virtual void TestThis() = 0;
-//
-//};
-
-
-class IAmTheOtherThing
-
-{
-
-public:
-
-    virtual ~IAmTheOtherThing() { }
-
-    virtual void TheOtherTest() = 0;
-
-};
-
-
-
 class TheThing : public IAmAThing
 
 {
@@ -234,7 +207,6 @@ public:
     }
 
 };
-
 
 class IRepository
 {
