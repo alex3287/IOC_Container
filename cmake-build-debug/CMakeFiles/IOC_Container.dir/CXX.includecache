@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alex/github/maga/IOC_Container/src/main.cpp
+iostream
+-
+functional
+-
+cstdlib
+-
+memory
+-
+map
+-
+

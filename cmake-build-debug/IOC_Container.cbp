@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IOC_Container"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\anaconda3\;CMake Files\..\..\..\..\..\opt\anaconda3\lib\;CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\;CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IOC_Container">
+				<Option output="/Users/alex/github/maga/IOC_Container/cmake-build-debug/IOC_Container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+					<Add directory="/Users/alex/github/maga/IOC_Container"/>
+					<Add directory="/Users/alex/github/maga/IOC_Container/cmake-build-debug/IOC_Container_autogen/include"/>
+					<Add directory="/opt/anaconda3/include/qt"/>
+					<Add directory="/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 IOC_Container"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IOC_Container/fast">
+				<Option output="/Users/alex/github/maga/IOC_Container/cmake-build-debug/IOC_Container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+					<Add directory="/Users/alex/github/maga/IOC_Container"/>
+					<Add directory="/Users/alex/github/maga/IOC_Container/cmake-build-debug/IOC_Container_autogen/include"/>
+					<Add directory="/opt/anaconda3/include/qt"/>
+					<Add directory="/opt/anaconda3/include/qt/QtCore"/>
+					<Add directory="/opt/anaconda3/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 IOC_Container/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IOC_Container_autogen">
+				<Option working_dir="/Users/alex/github/maga/IOC_Container/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 IOC_Container_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/alex/github/maga/IOC_Container/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/cmake-build-debug/IOC_Container_autogen/mocs_compilation.cpp">
+			<Option target="IOC_Container"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/src/main.cpp">
+			<Option target="IOC_Container"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/alex/github/maga/IOC_Container/../../../../../opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

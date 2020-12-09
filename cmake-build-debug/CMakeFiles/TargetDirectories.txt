@@ -1,0 +1,4 @@
+/Users/alex/github/maga/IOC_Container/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alex/github/maga/IOC_Container/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alex/github/maga/IOC_Container/cmake-build-debug/CMakeFiles/IOC_Container.dir
+/Users/alex/github/maga/IOC_Container/cmake-build-debug/CMakeFiles/IOC_Container_autogen.dir
