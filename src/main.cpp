@@ -12,6 +12,8 @@
 #include "ObjX.h"
 #include "IAmAThing.h"
 #include "IAmTheOtherThing.h"
+#include "TheThing.h"
+
 
 using namespace std;
 
@@ -162,30 +164,7 @@ IOCContainer gContainer;
 
 int IOCContainer::s_typeId = 121;
 
-class TheThing : public IAmAThing
-
-{
-
-public:
-
-    TheThing()
-
-    {
-
-    }
-
-    void TestThis()
-
-    {
-
-        std::cout << "A Thing" << std::endl;
-
-    }
-
-};
-
 class TheOtherThing : public IAmTheOtherThing
-
 {
 
     std::shared_ptr<IAmAThing> m_thing;
@@ -201,7 +180,6 @@ public:
     void TheOtherTest()
 
     {
-
         m_thing->TestThis();
 
     }
@@ -258,6 +236,8 @@ int main()
 
     ObjX test();
     std::cout<<"hello world!"<<endl;
+    TheThing test2();
+
 
     // то что было нам дано
     gContainer.RegisterFactory<IAmTheOtherThing, TheOtherThing, IAmAThing>();
